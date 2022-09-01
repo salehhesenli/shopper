@@ -11,6 +11,65 @@ a {
   text-decoration: none;
 }
 
+header {
+  color: 1F1F1F;
+}
+
+header .shopper-icon {
+  font-size: 28px;
+  text-decoration: none;
+  color: 1F1F1F;
+}
+
+header .links a {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+header header i {
+  padding-left: 10px;
+}
+
+.promo {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+.promo .sec-1 {
+  margin-left: 13%;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.promo .sec-1 span {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: .6875rem;
+}
+
+.promo .sec-2 {
+  width: 30%;
+  margin-right: 13%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.promo .sec-2 .sec-2-1 span {
+  padding-right: 30px;
+}
+
+.promo .sec-2 .sec-2-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  padding-right: 25px;
+  color: #767676;
+}
+
 .main-details {
   margin-left: 13%;
   margin-right: 13%;
@@ -31,7 +90,7 @@ a {
 
 .main-details .images .main-image .badge {
   position: absolute;
-  top: 70px;
+  top: 260px;
   border-radius: 0;
   background-color: #fd7e14;
   color: #fff;
